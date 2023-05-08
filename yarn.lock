@@ -1103,10 +1103,10 @@
   dependencies:
     typescript "4.5.4"
 
-"@corex/workspace@^3.0.545":
-  version "3.0.545"
-  resolved "https://registry.yarnpkg.com/@corex/workspace/-/workspace-3.0.545.tgz#b3b923816989ea0613d7048fffe72a485baa30af"
-  integrity sha512-jTMQAPgbHtz/IlMRS0yt2XfcPBoclOQsdGLEnRl0N4KDorwuB9EkdHdeIXbNni9jApBj+lI9GcS/zJgv5ShGhA==
+"@corex/workspace@^4.0.43":
+  version "4.0.43"
+  resolved "https://registry.yarnpkg.com/@corex/workspace/-/workspace-4.0.43.tgz#6d66f5109092cf9681912a8a3d368f079068d82e"
+  integrity sha512-YAcphn5UqN1nu0oafnnwXz8PC94wOwQwjHLjePWbGgD/t6ibuAA8mgURyj6BEWrKB5qVTZhoU/Y0Y6NT+fnHRg==
   dependencies:
     "@corex/eslint-config" "*"
     "@corex/jest" "*"
@@ -1114,15 +1114,7 @@
     "@corex/prettier" "*"
     "@corex/stylelint" "*"
     "@corex/tsconfig" "*"
-    "@corex/ywc" "*"
-
-"@corex/ywc@*":
-  version "3.0.176"
-  resolved "https://registry.yarnpkg.com/@corex/ywc/-/ywc-3.0.176.tgz#44319cd3f59c1045e996df5b3553ea6f99aa570b"
-  integrity sha512-bQdLMr4ivVoCB256oiuILqWRxkXfnMu52L5Aw0otlDeLZbUHdEXIJddYNp0pN610BxnzQiWhqtxdk0yP3jhpPA==
-  dependencies:
-    chalk "^5.0.0"
-    glob "^7.2.0"
+    typescript "^4.7.4"
 
 "@eslint/eslintrc@^1.0.5":
   version "1.0.5"
@@ -2172,11 +2164,6 @@ chalk@^4.0.0, chalk@^4.1.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-5.0.0.tgz#bd96c6bb8e02b96e08c0c3ee2a9d90e050c7b832"
-  integrity sha512-/duVOqst+luxCQRKEo4bNxinsOQtMP80ZYm7mMqzuh5PociNL0PvmHFvREJ9ueYL2TxlHjBcmLCdmocx9Vg+IQ==
-
 char-regex@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/char-regex/-/char-regex-1.0.2.tgz#d744358226217f981ed58f479b1d6bcc29545dcf"
@@ -3025,7 +3012,7 @@ glob-parent@^6.0.1:
   dependencies:
     is-glob "^4.0.3"
 
-glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.2.0:
+glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.0.tgz#d15535af7732e02e948f4c41628bd910293f6023"
   integrity sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q==
@@ -5330,6 +5317,11 @@ typescript@4.5.4:
   version "4.5.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.4.tgz#a17d3a0263bf5c8723b9c52f43c5084edf13c2e8"
   integrity sha512-VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==
+
+typescript@^4.7.4:
+  version "4.9.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
+  integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"
